@@ -1,0 +1,18 @@
+# 忽略数据集
+data/
+*.json
+*.jpg
+*.png
+
+# 忽略生成的图片库
+generated_images/
+
+# 忽略本地下载的超大模型权重
+models/
+*.ckpt
+*.safetensors
+*.bin
+
+# 忽略 Python 缓存
+__pycache__/
+*.pyc
